@@ -1,0 +1,13 @@
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\bin\Debug\Assignment5.1.exe.config
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\bin\Debug\Assignment5.1.exe
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\bin\Debug\Assignment5.1.pdb
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5.1.csproj.AssemblyReference.cache
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5.1.csproj.SuggestedBindingRedirects.cache
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5._1.FormEmployee.resources
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5._1.Properties.Resources.resources
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5.1.csproj.GenerateResource.cache
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5.1.csproj.CoreCompileInputs.cache
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5.1.exe
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5.1.pdb
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5._1.FormMenu.resources
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\20483\Week 5\Day 1\Assignment5.1\obj\Debug\Assignment5._1.FormCalculator.resources
