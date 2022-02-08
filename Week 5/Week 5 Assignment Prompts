@@ -1,0 +1,10 @@
+Assignment 5.1
+1. Create employee class and use type safe collections like stack, dictionary etc. to store employee records and to use basic methods like add, delete on these collections.
+2. Create an interface for ICalculator for methods like add, subtract, divide , multiply and implement them in a class.etc.
+
+Assignment 5.3
+Create any user defined class of your choice like Student, Customer etc. Add 3 properties in it (of your choice). Serialize and deserialize the object of this class by Binary, XML, JSON format.
+
+Assignment 5.4
+1. Try out different controls in wpf (xaml application)
+2. Create a class library with BookRepository class and add methods like AddBook, DisplayBooks. Add reference of this class library in windows form application and call methods appropriately. Convert the windows forms application ( of emp management system) to use class library
