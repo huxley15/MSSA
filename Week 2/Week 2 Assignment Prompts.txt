@@ -1,0 +1,63 @@
+Assignment 2.1
+1. Write a base class: ‘Shape’ and add properties like id, name and color and method like ‘calculate area’ .     Inherit circle shape from base class and add properties like radius. override calculate area logic for circle.        Inherit square class from shape and add change the calculate area logic. Add property like side of square.        Take the input from user to select circle or square and display the calculated area . no hard coded values!
+2. Design a class hierarchy of your choice. (Need only class files )
+
+Assignment 2.2
+1. Write a console application to create a text file and save your basic details like name, age, address ( use dummy data). Read the details from same file and print on console.
+2. Design a tip calculator : enter the bill total, tip % and display grand total after adding tip.
+Use the format specifiers to display currency, % symbol.
+
+Extra Assignments
+1. Write a function that takes an integer minutes and converts it to seconds. 
+Examples 
+convert(5) ➞ 300 
+convert(3) ➞ 180 
+convert(2) ➞ 120 
+2.Write a function that takes the base and height of a triangle and return its area. 
+triArea(3, 2) ➞ 3 
+triArea(7, 4) ➞ 14 
+triArea(10, 10) ➞ 50 
+The area of a triangle is: (base * height) / 2 
+3. Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false. 
+lessThan100(22, 15) ➞ true 
+// 22 + 15 = 37 
+lessThan100(83, 34) ➞ false 
+// 83 + 34 = 117 
+lessThan100(3, 77) ➞ true 
+4. Create a function that returns true if a number is a palindrome. 
+Examples 
+IsPalindrome(838) ➞ true 
+IsPalindrome(4433) ➞ false 
+IsPalindrome(443344) ➞ true 
+5. Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa. 
+ReverseCase("Happy Birthday") ➞ "hAPPY bIRTHDAY" 
+ReverseCase("MANY THANKS") ➞ "many thanks" 
+ReverseCase("sPoNtAnEoUs") ➞ "SpOnTaNeOuS" 
+6. Write a C# Sharp program to check whether a given number is even or odd.  
+Test Data : 15 
+Expected Output : 
+15 is an odd integer 
+7. Write a C# Sharp program to read roll no, name and marks of three subjects and calculate the total, percentage and division.   
+Test Data : 
+Input the Roll Number of the student :784 
+Input the Name of the Student :James 
+Input the marks of Physics, Chemistry and Computer Application : 70 80 90 
+Expected Output : 
+Roll No : 784 
+Name of Student : James 
+Marks in Physics : 70 
+Marks in Chemistry : 80 
+Marks in Computer Application : 90 
+Total Marks = 240 
+Percentage = 80.00 
+Division = First 
+8. Write a program in C# Sharp to find maximum and minimum element in an array.   
+Test Data : 
+Input the number of elements to be stored in the array :3 
+Input 3 elements in the array : 
+element - 0 : 45 
+element - 1 : 25 
+element - 2 : 21 
+Expected Output : 
+Maximum element is : 45 
+Minimum element is : 21 
