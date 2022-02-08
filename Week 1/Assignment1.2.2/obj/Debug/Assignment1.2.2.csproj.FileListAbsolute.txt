@@ -1,0 +1,7 @@
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\10975\Week 1\Day 2\Assignment1.2.2\bin\Debug\Assignment1.2.2.exe.config
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\10975\Week 1\Day 2\Assignment1.2.2\bin\Debug\Assignment1.2.2.exe
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\10975\Week 1\Day 2\Assignment1.2.2\bin\Debug\Assignment1.2.2.pdb
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\10975\Week 1\Day 2\Assignment1.2.2\obj\Debug\Assignment1.2.2.csproj.AssemblyReference.cache
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\10975\Week 1\Day 2\Assignment1.2.2\obj\Debug\Assignment1.2.2.csproj.CoreCompileInputs.cache
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\10975\Week 1\Day 2\Assignment1.2.2\obj\Debug\Assignment1.2.2.exe
+C:\Users\kylet\OneDrive\Documents\MSSA\PCAD5\10975\Week 1\Day 2\Assignment1.2.2\obj\Debug\Assignment1.2.2.pdb
