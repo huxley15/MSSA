@@ -1,0 +1,3 @@
+Assignment 6.2
+Create a table “Cars”. Add columns like VIN, Make, Model, Year, Price etc.
+Create a Windows forms app to display records in grid. Perform basic CRUD.
