@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap formatting-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--Mapbox-->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="style.css"/>
+    <title>Home</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Kyle's Gallery</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="Home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html" class="nav-link">About Us</a>
+                    </li><li class="nav-item">
+                        <a href="Contact.html" class="nav-link">Contact Us</a>
+                    </li><li class="nav-item">
+                        <a href="Join.html" class="nav-link">Membership</a>
+                    </li>
+                </li><li class="nav-item">
+                    <a href="Gallery.html" class="nav-link">Our Collection</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-3 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1> <span class="text-info">All are welcome in Kyle's Gallery</span></h1>
+                    <p class="lead my-4">
+                        Learn more about what makes this gallery a place of love and warmth.
+                    </p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-primary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-card-image"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Artwork</h3>
+                            <p class="card-text">
+                                Our artists continually provide their work for display within our gallery. If there is anything you see online that you would like to view in person, feel free to reach out so we can arrange a full showing.
+                            </p>
+                            <a href="" class="btn btn-light text-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-warning text-dark">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-brush"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Art Supplies</h3>
+                            <p class="card-text">
+                                We offer a wide variety of supplies, all made by hand with full care and love by local vendors. All supplies are available for testing on location, and sample sizes are offered for trial runs.
+                            </p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Community</h3>
+                            <p class="card-text">
+                                Kyle's Gallery strives to bring people together over their shared love of art in all it's forms. Whether you are looking to express your own artistic talent, or simply observe and learn, we have a space for all to share.
+                            </p>
+                            <a href="" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5" >
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" >
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" >
+                      Do we need an appointment to visit the gallery?
+                    </button>
+                  </h2>
+                  <div id="question-one" class="accordion-collapse collapse"  data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        No! Our gallery is open during normal business hours to all visitors! Some events do require tickets to attend, but those all occur outside of regular business hours.
+                    </div>
+                  </div>
+                </div>
+                <!-- item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" >
+                        How is artwork delivered?
+                      </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse"  data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          We have trained the fiercest army of bald eagles to deliver your art in the grandest means possible, while honoring our commmitment to minimizing waste production and carbon footprint. Our gallery promises the most unique experience in receiving your purchase via eagle, or your money back. For an additional fee, the eagles will arrive wearing tiny hats.
+                      </div>
+                    </div>
+                  </div>
+                <!-- item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" >
+                        How are returns handled?
+                      </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse"  data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          If you are unhappy with a purchase and desire a refund, all you must do is consult our on shift sphinx and answer her questions three. The first two questions are traditionally along the lines of "do you prefer chocolate or vanilla?" and "did Donnie Darko make the correct choice in the end?", but the third question will always be personally tailored based on your manners.
+                      </div>
+                    </div>
+                  </div>
+                  <!-- item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four" >
+                        How do you choose which artists to reprsent?
+                      </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse"  data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          Our artists only secure their spots through the most rigorous of trials. First they must draw a perfect circle without raising their pen or using any tools to assist. Next, they must climb to the highest peak and claim the moon's power to strike down their childhood rival. And finally, they must look upon Galadriel's mirror to see if their fate lies within our gallery. If it does not, they are doomed to live a modest life as a Nickelback groupie until the end of their days.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 Kyle&trade;</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
