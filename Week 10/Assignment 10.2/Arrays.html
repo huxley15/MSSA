@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Arrays!</title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <!--<script>
+        /*function createArray() {*/
+        /*let foods = new Array(4)*/
+        //let food1 = document.getElementById("txt1");
+        //let food2 = document.getElementById("txt2");
+        //let food3 = document.getElementById("txt3");
+        //let food4 = document.getElementById("txt4");
+        //foods[0] = pizza;
+        //foods[1] = food2;
+        //foods[2] = food3;
+        //foods[3] = food4;
+
+        let foods = ["Pizza", "Tacos", "Banh Mi"];
+
+        document.writeln("Initial foods array:" + "<br>");
+        for (var i = 0; i < foods.length; i++) {
+            document.writeln(foods[i] + "<br>");
+        }
+
+        foods.unshift("Chicken Tikka Masala");
+        document.writeln("Foods array with first update:" + "<br>");
+        for (var i = 0; i < foods.length; i++) {
+            document.writeln(foods[i] + "<br>");
+        }
+
+        foods.push("Sashimi");
+        document.writeln("Foods array with second update:" + "<br>");
+        for (var i = 0; i < foods.length; i++) {
+            document.writeln(foods[i] + "<br>");
+        }
+
+
+            //}
+    </script>-->
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="Home.html">Home</a>
+            <a href="Math.html">Math Functions</a>
+            <a href="Hobbies.html">Hobby List</a>
+            <a href="Arrays.html">Food Array</a>
+        </div>
+    </nav>
+    <script>
+        let foods = ["Pizza", "Tacos", "Banh Mi"];
+
+        document.writeln("Initial foods array:" + "<br>");
+        for (var i = 0; i < foods.length; i++) {
+            document.writeln(foods[i] + "<br>");
+        }
+
+        foods.unshift("Chicken Tikka Masala");
+        document.writeln("Foods array with first update:" + "<br>");
+        for (var i = 0; i < foods.length; i++) {
+            document.writeln(foods[i] + "<br>");
+        }
+
+        foods.push("Sashimi");
+        document.writeln("Foods array with second update:" + "<br>");
+        for (var i = 0; i < foods.length; i++) {
+            document.writeln(foods[i] + "<br>");
+        }
+    </script>
+    <!--<form>
+        <fieldset>
+            <legend>Enter your favorite foods: </legend>
+            <input type="text" id="txt1" />
+            <br />
+            <input type="text" id="txt2" />
+            <br />
+            <input type="text" id="txt3" />
+            <br />
+            <input type="text" id="txt4" />
+            <br />
+        </fieldset>
+        <input type="button" value="Create array!" onclick="createArray()" />
+    </form>-->
+</body>
+</html>

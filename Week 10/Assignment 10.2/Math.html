@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Math!</title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <script>
+        function addNum() {
+            let num1 = document.getElementById("txtbox1");
+            let num2 = document.getElementById("txtbox2");
+            var total = parseInt(num1.value) + parseInt(num2.value);
+            alert("The sum of " + num1.value + " and " + num2.value + " is " + total);
+        }
+        function subNum() {
+            let num1 = document.getElementById("txtbox1");
+            let num2 = document.getElementById("txtbox2");
+            var total = parseInt(num1.value) - parseInt(num2.value);
+            alert("The difference between " + num1.value + " and " + num2.value + " is " + total);
+        }
+        function multNum() {
+            let num1 = document.getElementById("txtbox1");
+            let num2 = document.getElementById("txtbox2");
+            var total = parseInt(num1.value) * parseInt(num2.value);
+            alert("The product of " + num1.value + " and " + num2.value + " is " + total);
+        }
+        function divNum() {
+            let num1 = document.getElementById("txtbox1");
+            let num2 = document.getElementById("txtbox2");
+            var total = parseInt(num1.value) / parseInt(num2.value);
+            alert("The quotient of " + num1.value + " and " + num2.value + " is " + total);
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="Home.html">Home</a>
+            <a href="Math.html">Math Functions</a>
+            <a href="Hobbies.html">Hobby List</a>
+            <a href="Arrays.html">Food Array</a>
+        </div>
+    </nav>
+    <div class="container">
+        <input type="number" id="txtbox1" />
+        <br />
+        <input type="number" id="txtbox2" />
+        <br />
+        <input type="button" value="Add them!" onclick="addNum()" />
+        <br />
+        <input type="button" value="Subtract them!" onclick="subNum()" />
+        <br />
+        <input type="button" value="Multiply them!" onclick="multNum()" />
+        <br />
+        <input type="button" value="Divide them!" onclick="divNum()" />
+    </div>
+</body>
+</html>
