@@ -3,3 +3,12 @@ Design an “About Me” page to describe about your educational background, wor
 Use all the basic text tags that we have used like headings, paragraph, styles, links, images. 
 You may use colors, styles , formatting. This will be a read only page( no input controls).
 Use HTML5 controls as needed.
+
+Assignment10.2
+Write inline javascript functions to perform simple arithmetic functions like add, subtract, multiply and divide. Provide 2 input boxes to enter 2 numbers. Search these input boxes by using DOM and then perform the calculations. 4 buttons can be used to invoke the functions.
+Design a simple form to allow users to enter their hobby. If user clicks on “add more hobby” add more text box control dynamically using DOM.
+Declare arrays of string. Enter user defined data into it and perform basic operations on array.
+
+Assignment10.3
+Modify the about us page to use text styling, graphical effects. Refer w3schools
+Modify the existing website to add video and audio tags. Also add the geolocation api to get user’s location.
