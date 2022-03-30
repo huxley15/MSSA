@@ -1,0 +1,136 @@
+﻿
+@{
+    ViewData["Title"] = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-3 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1> <span class="text-warning">Books! They exist here</span></h1>
+                    <p class="lead my-4">
+                        We have a very limited selection. Sorry in advance.
+                    </p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-primary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-heartbreak"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Help Me</h3>
+                            <p class="card-text">
+                                Please buy something, I'm poor.
+                            </p>
+                            <a href="" class="btn btn-light text-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-warning text-dark">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-mortarboard-fill"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Illiterate</h3>
+                            <p class="card-text">
+                                I'm not even sure how I'm writing this right now.
+                            </p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-stars"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Existential Crisis</h3>
+                            <p class="card-text">
+                                God has abandoned me.
+                            </p>
+                            <a href="" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5" >
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" >
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" >
+                      Why don't you have more books?
+                    </button>
+                  </h2>
+                  <div id="question-one" class="accordion-collapse collapse"  data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        I'm too broke to run a proper bookselling establishment.
+                    </div>
+                  </div>
+                </div>
+                <!-- item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" >
+                        Are you okay?
+                      </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse"  data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          Are any of us okay?
+                      </div>
+                    </div>
+                  </div>
+                <!-- item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" >
+                        What deoderant do you use?
+                      </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse"  data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          Native brand, Jasmine and Cedar scent!
+                      </div>
+                    </div>
+                  </div>
+                  <!-- item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four" >
+                        Should Harry have married Ginny or Hermione?
+                      </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse"  data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          These people aren't real.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+
+
+<!--<h1>About Kyle's' Book Store</h1>
+<p>We offer a limited book selection. I am sorry in advance.</p>-->
