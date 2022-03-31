@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!--
+<div class="text-center">
+    <h1 class="display-2">Welcome</h1>
+    <p class="h2">Come in and peruse our inventory of useless items :D</p>
+    <button type="button" class="btn btn-primary position-relative">
+      Shop Now
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        3+
+        <span class="visually-hidden">new items</span>
+    </span>
+</button>
+</div>
+-->
+
+<!-- Showcase -->
+<section class="bg-dark text-light p-5 p-lg-3 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+                <h1> <span class="text-warning">Welcome</span></h1>
+                <p class="lead my-4">
+                    Come in and peruse our inventory of useless items :D
+                </p>
+                <p>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    3+
+                    <span class="visually-hidden">new items</span>
+                </span>
+                </p>
+                
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Contact Us</button>
+            </div>
+            <!--
+            <img class="img-fluid w-25" d-none d-sm-block src="images/me/meSmile.jpg" alt="Kyle smiling">
+            -->
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="enrollLabel">Contact Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p class="lead">
+                Fill out this form and we will get back to you!
+            </p>
+            <form>
+                <div class="mb-3">
+                    <label for="first-name" class="col-form-label">
+                        First Name:
+                    </label>
+                    <input type="text" class="form-control" id="first-name"/>
+                </div>
+
+                <div class="mb-3">
+                    <label for="last-name" class="col-form-label">
+                        Last Name:
+                    </label>
+                    <input type="text" class="form-control" id="last-name"/>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="col-form-label">
+                        Email:
+                    </label>
+                    <input type="text" class="form-control" id="email"/>
+                </div>
+
+                <div class="mb-3">
+                    <label for="phone" class="col-form-label">
+                        Phone:
+                    </label>
+                    <input type="text" class="form-control" id="phone"/>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Newsletter -->
+<section class="bg-success text-light p-5">
+    <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Subscribe for exclusive discounts and product release notices!</h3>
+
+            <div class="input-group news-input">
+                <input type="text" class="form-control" placeholder="Enter your email address here" aria-label="Recipient's email" aria-describedby="button-addon2">
+                <button class="btn btn-warning btn-lg" type="button" >Submit</button>
+                </div>
+        </div>
+    </div>
+</section>
