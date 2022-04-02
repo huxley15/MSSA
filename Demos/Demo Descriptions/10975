@@ -1,0 +1,96 @@
+Week 1
+
+Day 1
+
+FirstHelloWorld
+Print "Hello world" to the console
+
+Day 2
+
+Mod3Demo1
+Description of basic data types and common methods
+
+Mod3Demo2
+Introduction to if/else loops
+
+Mod3Demo3
+Intro to switch cases
+Return sum of 5 numbers entered by user in console
+
+Mod3Demo4
+Into to while and do-while loops.
+Basic console menu with switch cases
+
+Day 3
+
+Mod4Demo1
+Array demo
+Boxing/Unboxing
+Array reverse and sort methods
+Stacks
+Queues
+ArrayList
+
+Mod4Demo2
+Fibonacci Sequence
+
+Mod4Demo3
+Bubble Sort
+try/catch
+
+Mod5Demo1
+try/catch/finally
+
+Mod6Demo1
+Book structure
+Initialize and add data
+
+Mod6Demo2
+Address structure
+Initialize and add data
+
+Week 2
+
+Day 1
+
+Mod7Demo1
+Abstract class
+Inheritance
+
+Mod7Demo2
+Abstract class and method, overroid
+Employee class and basic methods
+
+Mod7Demo3
+Math class with basic math methods
+Overloading methods
+Exception class
+
+Day 2
+
+Mod9Demo1
+Create basic text files from console
+
+Mod9Demo2
+Create text file printing divide by zero exception
+Streamwriter and streamreader with filepath for text files
+
+Mod9Demo3
+DriveInfo, DirectoryInfo
+
+Mod9Demo4
+Console program for calculating tip and displaying it with formatting
+
+RevisionDemo
+Movie class with private field
+Abstract Order class with virtual methods
+
+Day 3
+
+Mod10Demo1
+Structure vs Class
+Swap numbers method
+
+Mod10Demo2
+IDisposable - deterministic vs nondeterministic
+Dispose method
