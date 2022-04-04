@@ -1,0 +1,10 @@
+Assignment 13.1
+Create a separate layout for 1 or 2 views to display different layout than other. You may decide which views from product website
+Explore different bootstrap elements and check whether you could modify the product website with different bootstrap.
+
+Assignment 13.2
+Modify product website to redirect to custom error page in production environment and developer exception page in development environment.
+
+Assigntment 13.3
+Apply security in products website to create login and account creation for new customer . Allow customer to log in.
+Restrict the crud operations to only admins. Allow product display to customers
